@@ -20,5 +20,4 @@ public class Book:BaseEntity
     public int Code { get; set; }
     public List<BookImage> BookImages { get; set; }
     public List<BookTag> BookTAgs { get; set; }
-    
 }
