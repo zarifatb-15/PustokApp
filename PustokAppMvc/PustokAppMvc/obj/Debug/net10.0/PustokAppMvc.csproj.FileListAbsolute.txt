@@ -140,7 +140,6 @@
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/bin/Debug/net10.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/bin/Debug/net10.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/bin/Debug/net10.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
-/Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/bin/Debug/net10.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/bin/Debug/net10.0/runtimes/win/lib/net9.0/System.Windows.Extensions.dll
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/obj/Debug/net10.0/PustokAppMvc.csproj.AssemblyReference.cache
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/obj/Debug/net10.0/rpswa.dswa.cache.json
@@ -241,3 +240,4 @@
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/obj/Debug/net10.0/PustokAppMvc.pdb
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/obj/Debug/net10.0/PustokAppMvc.genruntimeconfig.cache
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/obj/Debug/net10.0/ref/PustokAppMvc.dll
+/Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/bin/Debug/net10.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll
