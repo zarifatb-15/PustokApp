@@ -17,7 +17,7 @@ public class Book:BaseEntity
     public bool IsNew { get; set; }
     public bool IsFeatured { get; set; }
     public bool InStock { get; set; }
-    public int Code { get; set; }
+    public string Code { get; set; }
     public List<BookImage> BookImages { get; set; }
-    public List<BookTag> BookTAgs { get; set; }
+    public List<BookTag> BookTags { get; set; }
 }
