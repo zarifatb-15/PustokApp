@@ -34,7 +34,7 @@ public class BooksController(PustokAppDbContext dbContext):Controller
 
     }
 
-    public IActionResult BookModel(Guid id)
+    public IActionResult BookModal(Guid id)
     {
         var book = dbContext.Books
             .Include(x => x.Author)
@@ -45,6 +45,6 @@ public class BooksController(PustokAppDbContext dbContext):Controller
         if (book == null)
             return NotFound();
 
-        return PartialView("_BooksPartialView", new List<Book> { book });
+        return PartialView("_BookModalPartialView", book);
     }
-    }
+}

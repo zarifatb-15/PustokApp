@@ -241,3 +241,4 @@
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/obj/Debug/net10.0/PustokAppMvc.genruntimeconfig.cache
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/obj/Debug/net10.0/ref/PustokAppMvc.dll
 /Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/bin/Debug/net10.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll
+/Users/zarifababayeva/Desktop/pustokapp/PustokAppMvc/PustokAppMvc/obj/Debug/net10.0/compressed/5j76hbmnhr-{0}-2hzu1tzfqi-2hzu1tzfqi.gz
