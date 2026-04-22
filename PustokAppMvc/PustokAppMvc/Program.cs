@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using PustokAppMvc.Data;
+using PustokAppMvc.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,7 +12,8 @@ builder.Services.AddControllersWithViews();
     // {
     //     options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
     // });
-
+    builder.Services.AddTransient<BankService>();
+    builder.Services.AddScoped<BankManager>();
 builder.Services.AddDbContext<PustokAppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 var app = builder.Build();
