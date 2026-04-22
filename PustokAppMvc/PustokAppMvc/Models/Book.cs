@@ -20,4 +20,10 @@ public class Book:BaseEntity
     public string Code { get; set; }
     public List<BookImage> BookImages { get; set; }
     public List<BookTag> BookTags { get; set; }
+
+    public Book()
+    {
+        BookImages = [];
+        BookTags = [];
+    }
 }

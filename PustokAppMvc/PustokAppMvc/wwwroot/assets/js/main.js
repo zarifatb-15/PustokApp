@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".bookModalIcon").click(function (e) {
+    $(document).on("click", ".bookModalIcon", function (e) {
         // url:/books/bookmodal/id
         e.preventDefault();
         let url = $(this).attr("href");

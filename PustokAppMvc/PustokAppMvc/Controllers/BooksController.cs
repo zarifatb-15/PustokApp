@@ -34,6 +34,7 @@ public class BooksController(PustokAppDbContext dbContext):Controller
 
     }
 
+    [ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
     public IActionResult BookModal(Guid id)
     {
         var book = dbContext.Books
@@ -44,7 +45,8 @@ public class BooksController(PustokAppDbContext dbContext):Controller
             .FirstOrDefault(x => x.Id == id);
         if (book == null)
             return NotFound();
-
-        return PartialView("_BookModalPartialView", book);
+        
+        return PartialView("_BookModalPartial", book);
     }
 }
+

@@ -1,9 +1,15 @@
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using PustokAppMvc.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+    // .AddNewtonsoftJson(
+    // options =>
+    // {
+    //     options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+    // });
 
 builder.Services.AddDbContext<PustokAppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
